@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 *,
 *:before,
 *:after {
@@ -7,4 +9,60 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.background {
+  height: 100vh;
+  background: linear-gradient(
+    0deg,
+    rgba(101, 101, 231, 1) 0%,
+    rgba(175, 103, 233, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*change height to auto when implementing anime*/
+.container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  background: white;
+  height: 500px;
+  width: 920px;
+  border-radius: 1.5em;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+}
+
+.hero {
+  top: 15%;
+  margin-left: -70px;
+}
+
+.card {
+  background: pink;
+  width: 350px;
+  margin: 3em;
+}
+
+h1 {
+  font-size: 33px;
+}
+
+.drop {
+  font-size: 12px;
+}
+
+.question {
+  font-weight: 700;
+}
+
+.answer {
+  font-weight: 400;
 }
