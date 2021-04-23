@@ -33,6 +33,7 @@ body {
   height: 500px;
   width: 920px;
   border-radius: 1.5em;
+  overflow: hidden;
 }
 
 .logo {
@@ -40,9 +41,15 @@ body {
   left: 0;
 }
 
+.shadow {
+  position: absolute;
+  margin-right: 520px;
+  top: -300px;
+}
+
 .hero {
   top: 15%;
-  margin-left: -70px;
+  margin-left: -75px;
 }
 
 .card {
