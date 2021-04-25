@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: flex-end;
   background: white;
-  height: 500px;
+  height: 515px;
   width: 920px;
   border-radius: 1.5em;
   overflow: hidden;
@@ -38,18 +38,22 @@ body {
 
 .logo {
   position: absolute;
-  left: 0;
 }
 
 .shadow {
-  position: absolute;
   margin-right: 520px;
   top: -300px;
 }
 
 .hero {
   top: 15%;
+  left: 0;
   margin-left: -75px;
+}
+
+.box {
+  top: 100px;
+  left: -85px;
 }
 
 .card {
