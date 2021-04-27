@@ -71,15 +71,12 @@ body {
 
 h1 {
   font-size: 33px;
-  margin-bottom: 0.3em;
-}
-
-.drop {
-  font-size: 13px;
+  margin-bottom: 1.7rem;
 }
 
 .question {
-  line-height: 5em;
+  font-size: 14px;
+  line-height: 2.7rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -95,7 +92,7 @@ h1 {
   background-size: contain;
   background-position: center center;
   margin-right: 1.5rem;
-  transition: transform 250ms ease-in-out;
+  transition: transform 200ms ease-in-out;
 }
 
 .question.open::after {
@@ -112,9 +109,17 @@ h1 {
 }
 
 .answer {
+  font-size: 13px;
+  color: hsl(240, 6%, 50%);
   font-weight: 400;
+  margin-bottom: 1.3rem;
 }
 
 .hide {
   display: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid hsl(240, 5%, 91%);
 }
