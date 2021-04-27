@@ -66,6 +66,7 @@ body {
 .card {
   width: 370px;
   margin: 2.7em 5em;
+  overflow-y: scroll;
 }
 
 h1 {
@@ -94,9 +95,26 @@ h1 {
   background-size: contain;
   background-position: center center;
   margin-right: 1.5rem;
+  transition: transform 250ms ease-in-out;
+}
+
+.question.open::after {
+  transform: rotate(180deg);
+}
+
+.question:hover {
+  color: hsl(14, 88%, 65%);
+  cursor: pointer;
+}
+
+.open {
+  font-weight: 700;
 }
 
 .answer {
   font-weight: 400;
+}
+
+.hide {
   display: none;
 }
