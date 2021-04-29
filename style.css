@@ -14,7 +14,7 @@ body {
 }
 
 .background {
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(
     0deg,
     rgba(101, 101, 231, 1) 0%,
