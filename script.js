@@ -1,5 +1,5 @@
 document.querySelectorAll('.question').forEach(item => {
-  item.addEventListener('click', event => {
+  item.addEventListener('click', () => {
     item.classList.toggle('open');
     item.nextElementSibling.classList.toggle('hide');
   });
