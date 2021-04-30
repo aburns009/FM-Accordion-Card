@@ -87,7 +87,7 @@ h1 {
 .question::after {
   content: '';
   display: block;
-  background-image: url('/images/icon-arrow-down.svg');
+  background-image: url('../images/icon-arrow-down.svg');
   width: 0.625rem;
   height: 1rem;
   background-repeat: no-repeat;
