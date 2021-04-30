@@ -135,7 +135,6 @@ hr {
     overflow: visible;
     text-align: center;
     justify-content: center;
-    background-image: url(images\bg-pattern-mobile.svg);
   }
 
   .card {
